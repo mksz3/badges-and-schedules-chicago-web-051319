@@ -11,8 +11,10 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  # count = 0
-  # list = []
+  count = 0
+  list = []
+  attendees.each do |attendee|
+    list.push()
   # while count < attendees.length
   #   list.push("Hello, #{attendees[count]}! You'll be assigned to room #{count + 1}!")
   #   count++
