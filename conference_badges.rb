@@ -25,5 +25,8 @@ end
     # the badges and room assignments one at a time.
     # To make this test pass, make sure you are iterating through your badges and room assignments lists.
     
-def printer(badges, room)
-  badges.each do |b
+def printer(attendees)
+  
+  
+  
+  
