@@ -11,11 +11,11 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-  count = 0
-  list = []
-  while count < attendees.length
-    list.push("Hello, #{attendees[count]}! You'll be assigned to room #{count + 1}!")
-    count++
-  end
-  list
+  # count = 0
+  # list = []
+  # while count < attendees.length
+  #   list.push("Hello, #{attendees[count]}! You'll be assigned to room #{count + 1}!")
+  #   count++
+  # end
+  # list
 end
