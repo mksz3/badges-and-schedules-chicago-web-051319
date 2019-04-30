@@ -17,9 +17,5 @@ def assign_rooms(attendees)
     list.push("Hello, #{attendee}! You'll be assigned to room #{count + 1}!")
     count+= 1 
   end
-  # while count < attendees.length
-  #   list.push("Hello, #{attendees[count]}! You'll be assigned to room #{count + 1}!")
-  #   count++
-  # end
   list
 end
